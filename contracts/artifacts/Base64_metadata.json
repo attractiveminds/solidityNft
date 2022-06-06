@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"author": "Brecht Devos - <brecht@loopring.org>",
+			"kind": "dev",
+			"methods": {},
+			"title": "Base64",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Provides a function for encoding some bytes in base64",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Base64.sol": "Base64"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Base64.sol": {
+			"keccak256": "0x5e40b6d190656a73c2698cc829e19a721a0f39ae8f8ff903bd1f3db67f96db96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b587301101ff9516a58d402d0ff705551104a3c43807161d6c188ca2d188aab",
+				"dweb:/ipfs/QmNvByzTQC2ER72jYtX13iA5TfnYuffhZ5Fs1tiekCPTFN"
+			]
+		}
+	},
+	"version": 1
+}
