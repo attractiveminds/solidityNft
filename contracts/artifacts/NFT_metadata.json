@@ -142,7 +142,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					}
+				],
 				"name": "buildImage",
 				"outputs": [
 					{
@@ -151,7 +157,26 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fontValues",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -244,6 +269,35 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_mod",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_seed",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salt",
+						"type": "uint256"
+					}
+				],
+				"name": "randomNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -404,7 +458,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "_tokenId",
 						"type": "uint256"
 					}
 				],
@@ -474,6 +528,35 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "words",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "textHue",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -523,9 +606,6 @@
 				},
 				"tokenOfOwnerByIndex(address,uint256)": {
 					"details": "See {IERC721Enumerable-tokenOfOwnerByIndex}."
-				},
-				"tokenURI(uint256)": {
-					"details": "See {IERC721Metadata-tokenURI}."
 				},
 				"totalSupply()": {
 					"details": "See {IERC721Enumerable-totalSupply}."
@@ -666,11 +746,11 @@
 			]
 		},
 		"contracts/OwnEverythingColors.sol": {
-			"keccak256": "0xa4ac1fe1e9942c5504770e3e1933fd002165eab19fe881c9937347d0463cebb9",
+			"keccak256": "0x799377c0a12fc277365ab6a3293acfef71de58d3183f82f863d0b0136c2eb34e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9e8154ba3bd987094043e6f6f5524e3706549c26ba14bf4dd06f9861427317bd",
-				"dweb:/ipfs/QmY95uPAKqPpjhixgDrj51tSLYyVmXYqTZzMjyiMmxY6dk"
+				"bzz-raw://ee0f98ee6c0d37fb39f7a1b5cbdbd5a2ac02f60c266b75e5ab3db605706d07df",
+				"dweb:/ipfs/QmPtYVz5Efj1pTxB8GASg5UxmuoMUS2cyPVMt2p4Mg8beF"
 			]
 		}
 	},
