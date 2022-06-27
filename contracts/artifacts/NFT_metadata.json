@@ -746,11 +746,11 @@
 			]
 		},
 		"contracts/OwnEverythingColors.sol": {
-			"keccak256": "0x799377c0a12fc277365ab6a3293acfef71de58d3183f82f863d0b0136c2eb34e",
+			"keccak256": "0x50f921bb22c977083ccc8abb1886ed2f30430d930137e53c08bef67e3fdf02f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ee0f98ee6c0d37fb39f7a1b5cbdbd5a2ac02f60c266b75e5ab3db605706d07df",
-				"dweb:/ipfs/QmPtYVz5Efj1pTxB8GASg5UxmuoMUS2cyPVMt2p4Mg8beF"
+				"bzz-raw://16c3a4bbb6e8af2e33fc0b871f11316eed08a4084645e65ae95f716ec764183d",
+				"dweb:/ipfs/QmWGbJ3h4rR7tWHAvDK4F3VbVZtsnVFq6n74vEGRp4cd2X"
 			]
 		}
 	},
